@@ -1,0 +1,167 @@
+.grid-proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: linear-gradient(rgb(97, 47, 154), rgb(60, 56, 117));
+    width: 45vh;
+    height: 49vh;
+    transition: 2s;
+}
+
+.grid-proyectos:hover {
+    width: 46vh;
+    height: 50vh;
+}
+
+.proy-content h1 {
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.233);
+    text-align: center;
+}
+
+.proy-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.444);
+    width: 40vh;
+    transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.252);
+}
+
+.proy-card:hover {
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.164), 0 0 10px rgba(255, 255, 255, 0.263);
+    outline-color: rgba(49, 138, 172, 0);
+    outline-offset: 5px;
+    text-shadow: 0.5px 0.5px 6px #fff;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.proy-card h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 2s;
+    padding: 5px;
+    width: 200px;
+}
+
+.proy-card h3:hover {
+    background-color: rgba(0, 0, 0, 0.193);
+    color: #fff;
+    text-shadow: 0.5px 0.5px #000000;
+}
+
+.proy-card p {
+    color: #fff;
+    margin: 10px;
+}
+
+.proy-card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proy-card-footer h2 {
+    color: white;
+}
+
+/*-----------GRID DEL LOS CURSOS-----------------------------------------------------------------------------*/
+
+.grid-cursos {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 45vh;
+    height: 18vh;
+    transition: 2s;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(24, 22, 125, 0.527), rgba(115, 0, 255, 0.445));
+}
+
+.grid-cursos:hover {
+    width: 46vh;
+    height: 19vh;
+}
+
+.grid-cursos h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.grid-cursos p {
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.btn-cursos {
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.btn-cursos:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 15px;
+}
+
+
+/*---------GRID DE LA HORA-------------------------------------------------------------------------------------*/
+
+.grid-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 12vh;
+    transition: 2s;
+    color: white;
+    background: linear-gradient(to bottom, #87cfebb0, #1e8fff4c);
+    position: relative;
+    overflow: hidden;
+    font-family: "Digital-7", sans-serif;
+    font-size: 6vh;
+}
+
+@font-face {
+    font-family: "Digital-7";
+    src: url('../../assets/digital-7.italic.ttf');
+}
+
+.grid-info:hover {
+    width: 46vh;
+    height: 13vh;
+}
+
+.timeN {
+    text-align: center;
+    font-size: 140px;
+    transition: 2s;
+    margin: 0px;
+}
+
+.timeN:hover {
+    font-size: 145px;
+}

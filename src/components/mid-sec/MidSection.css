@@ -1,0 +1,270 @@
+.container {
+    display: block;
+}
+
+.grid-colums {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 5px;
+}
+
+.grid-general {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    transition: width 0.5s, height 0.5s;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+/*! SIMPLE GRID*/
+
+.grid-simple {
+    width: 20vh;
+    height: 20vh;
+    transition: 1s;
+}
+
+.grid-simple:hover {
+    width: 22vh;
+    height: 22vh;
+}
+
+/*! MEDIUM GRID*/
+
+.grid-medium {
+    border-radius: 20px;
+    padding: 10px;
+    width: 90vh;
+    height: 20vh;
+    transition: 1s;
+}
+
+.grid-medium:hover {
+    width: 91vh;
+    height: 21vh;
+}
+
+/*! BIG GRID*/
+
+.grid-big {
+    width: 90vh;
+    height: 30vh;
+    transition: 1s;
+}
+
+.grid-big:hover {
+    width: 91vh;
+    height: 31vh;
+}
+
+/*? OTROS*/
+
+.logo-c {
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-in {
+    background-image: linear-gradient(rgb(89, 126, 168), rgb(29, 36, 126));
+}
+
+.icon-git {
+    background-image: linear-gradient(rgb(40, 30, 97), rgb(45, 48, 109))
+}
+
+.icon-ins {
+    background-image: linear-gradient(rgb(187, 146, 59), rgb(145, 68, 17))
+}
+
+.skills {
+    color: white;
+    background-image: url('https://www.pandaancha.mx/plds/articulos/froala/code%2003-500x281-38415426.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.skills-list li{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.skills-list li:hover{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.412);
+}
+
+li box-icon{
+    width: 7vh;
+    height: 7vh;
+}
+
+.sk-1{
+    background-color: rgb(255, 124, 1);
+}
+.sk-2{
+    background-color: rgb(43, 43, 241);
+}
+.sk-3{
+    background-color: rgb(214, 214, 4);
+}
+.sk-4{
+    background-color: #7952b3;
+}
+.sk-5{
+    background-color: rgb(5, 10, 42);
+}
+.sk-6{
+    background-color: #7A86B8;
+}
+.sk-7{
+    background-color: #fff;
+}
+
+.sk-7 img{
+    width: 7vh;
+    height: 7vh;
+}
+
+.about {
+    display: flex;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgb(67, 34, 128), rgb(63, 96, 122));
+}
+
+.about-info h1 {
+    font-size: 28px;
+}
+
+.about-info p {
+    font-size: 20px;
+}
+
+.about-info {
+    text-align: center;
+    width: -webkit-fill-available;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.logo-c box-icon{
+    width: 25vh;
+    height: 25vh;
+}
+
+.user-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon img{
+    width: 25vh;
+    height: 25vh;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.453);
+    border-radius: 125px;
+    transition: 2s;
+}
+
+.user-icon img:hover{
+    width: 26vh;
+    height: 26vh;
+}
+
+.me_grid {
+    background-image: linear-gradient(rgb(65, 65, 179), rgba(179, 199, 235, 0.521));
+}
+
+.cv-btn {
+    background-color: rgb(36, 152, 219);
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.cv-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 90vh;
+    height: 5vh;
+    transition: 0.5s;
+    background-image: linear-gradient(rgb(65, 65, 179), rgba(179, 199, 235, 0.521));
+}
+
+.contact:hover{
+    width: 91vh;
+    height: 6vh;
+}
+
+.contact div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    width: 65vh;
+}
+
+.contact-list{
+    display: flex;
+    list-style: none;
+}
+
+.contact-list li{
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    padding: 8px;
+    margin: 5px;
+    width: 25vh;
+    transition: 2s;
+}
+
+.contact-list li:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.contact-list article{
+    display: flex;
+    align-items: center;
+}
+
+.icon-len{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    background-image: linear-gradient(rgba(69, 75, 124, 0.775), rgb(33, 31, 73));
+    cursor: pointer;
+}
